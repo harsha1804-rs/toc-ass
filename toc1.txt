@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep  8 15:54:17 2020
+
+@author: HARSHDA SABLE
+"""
+
+
+
+
+binary=101101
+binary=int(input("enter the value of binary="))
+n=3
+a=int(str(binary),2)
+if a%3==0:
+    print("divisible by 3")
+else:
+    print("not divisible by 3") 
+
+
+
+
+OUTPUT:
+
+runfile('C:/Users/HARSHDA SABLE/toc1.py', wdir='C:/Users/HARSHDA SABLE')
+
+enter the value of binary=101101
+divisible by 3
+
+runfile('C:/Users/HARSHDA SABLE/toc1.py', wdir='C:/Users/HARSHDA SABLE')
+
+enter the value of binary=1111
+divisible by 3
+
+runfile('C:/Users/HARSHDA SABLE/toc1.py', wdir='C:/Users/HARSHDA SABLE')
+
+enter the value of binary=1110
+not divisible by 3
+
+runfile('C:/Users/HARSHDA SABLE/toc1.py', wdir='C:/Users/HARSHDA SABLE')
+
+enter the value of binary=1110
+not divisible by 3
+
+runfile('C:/Users/HARSHDA SABLE/toc1.py', wdir='C:/Users/HARSHDA SABLE')   
